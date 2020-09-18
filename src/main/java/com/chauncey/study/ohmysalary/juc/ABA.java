@@ -1,4 +1,4 @@
-package com.chauncey.study.ohmysalary.entity;
+package com.chauncey.study.ohmysalary.juc;
 
 import lombok.extern.slf4j.Slf4j;
 

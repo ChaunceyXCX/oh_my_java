@@ -17,6 +17,7 @@ public class SpinLockDemo {
     public void myLock() {
         Thread thread = Thread.currentThread();
         System.out.println(thread.getName()+"\t come in...");
+        //开始自旋如果锁一直被TA占用，TB将一直自旋等待TA释放锁
         while (!atomicReference.compareAndSet(null,thread)) {
 
             System.out.println(Thread.currentThread().getName()+"\t 锁被TA占用获取失败...");

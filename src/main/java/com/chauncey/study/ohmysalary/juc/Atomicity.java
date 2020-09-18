@@ -1,4 +1,4 @@
-package com.chauncey.study.ohmysalary.volatiletest;
+package com.chauncey.study.ohmysalary.juc;
 
 import com.chauncey.study.ohmysalary.entity.TestObj;
 import lombok.extern.slf4j.Slf4j;
